@@ -3,3 +3,8 @@
   width: 16px;
   enable-background: $light-color;  
 }
+
+@mixin col-sm-2() {
+  flex: 0 0 16.66667%;
+  max-width: 16.66667%;
+}

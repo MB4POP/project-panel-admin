@@ -1,3 +1,5 @@
 
 .icon-emo-happy:before { content: '\e800'; } /* '' */
 .icon-menu:before { content: '\f0c9'; } /* '' */
+.icon-circle:before { content: '\f111'; } /* '' */
+.icon-circle-thin:before { content: '\f1db'; } /* '' */
