@@ -1,0 +1,274 @@
+/* RWD */
+
+@media (max-width: 766px) {
+    .leftside-container, .topbar-container {
+      display: none;
+    }
+  
+    .main-container {
+      margin: 0;
+    }
+  
+    .main-nav {
+      display: block;
+      position: -webkit-sticky; 
+      position: sticky;
+      top: 0; 
+      z-index: 1000;          
+    }  
+  
+    .break-line {  
+      height: 5px;    
+    }
+    
+    .date-container,
+    .gen-con-second-row,
+    .gen-con-third-row,
+    .link-con-second-row,  
+    .banner-con-second-row {
+      width: 100%;
+      padding: 0 5px;    
+    } 
+  
+    .date-container {
+      height: 100px;
+    }
+  
+    .gen-con-second-row {
+      min-height: 120px;
+    }
+    
+    .chart-label-right,
+    .chart-label-middle,
+    .chart-label-left {
+      padding-left: 0;
+      margin-left: 0;
+    }
+    
+    .date-container-row {  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+  
+    .date-container-row {
+      border: none;
+    }
+  
+    input.right-input,
+    input.left-input {
+      border: 1px solid $grey-light-color; 
+      width: 200px;
+      margin-left: 10px;
+    }
+  
+    div.date-box {
+      display: none;
+    }
+  
+    h3.chart-text {
+      margin-bottom: 0;
+    }
+  
+    .link-con-row-left,
+    .banner-con-row-left {   
+      padding-left: 5px;
+      display: block;       
+      color: $grey-dark-color;    
+    }
+  
+    .link-con-row-left {
+      font-size: 14px; 
+    }
+  
+    .banner-con-row-left {
+      font-size: 12px;
+    }
+  
+    .link-con-row-left {
+    max-width: 100px;
+    }
+  
+    .banner-con-row-left {
+      max-width: 150px;
+      }
+  
+    .link-con-row-right,
+    .banner-con-row-right {
+      padding-left: 5px;
+      display: block;            
+    } 
+  
+    a.link-con,
+    a.banner-con {
+      font-size: 14px;
+    }
+  
+    .link-svg {
+      padding-left: 10px; 
+      width: 40px;
+      height: 40px;   
+    }
+    
+    .trash-svg {
+      padding-left: 0px;
+      width: 40px;
+      height: 40px;    
+    }   
+    
+    .link-con-first-row,
+    .link-con-third-row,
+    .banner-con-first-row,
+    .banner-con-third-row {
+      min-height: 100px;
+      padding: 10px auto;
+      line-height: 100px;
+    }
+  
+    .banner-con-row {
+      display: flex;
+      flex-direction: column;
+      height: 60px;
+      line-height: 30px;
+    }
+  
+    .postback-second-row-left,
+    .postback-second-row-right,
+    .postback-third-row-left,
+    .postback-third-row-middle,
+    .postback-third-row-right,
+    .postback-four-row-left,
+    .postback-four-row-right {
+      float: none; 
+      width: 100%;
+    }
+  
+    .option-input {    
+      min-width: 100%;
+    }
+  
+    .postback-four-row-right {
+      min-height: 100px;
+    }
+  }
+  
+  @media (min-width: 767px) and (max-width: 1024px) {
+    .date-container,
+    .gen-con-second-row,
+    .gen-con-third-row,
+    .link-con-second-row,
+    .banner-con-second-row {
+      width: 100%;
+      padding: 0 50px;    
+    } 
+  }
+  
+  @media (min-width: 425px) and (max-width: 766px) {
+    .banner-con-row-left,
+    a.banner-con {
+      font-size: 14px;
+    }
+  
+    .pd-con-first-row,
+    .pd-con-second-row,
+    .pd-con-third-row,
+    .pd-con-four-row {
+      width: 100%; 
+      max-width: auto; 
+      text-align: center; 
+      padding: 10px 60px;
+    }
+  
+    input[type=text],
+    input[type=number],
+    input[type=email],
+    input[type=password] {
+      font-size: 14px  
+    }
+  
+    label.pd-con-label {
+      font-size: 14px           
+    }
+    
+  }
+  
+  @media (max-width: 424px) {
+    .link-con-row {
+      display: flex;
+      flex-direction: column;
+      height: 60px;
+      line-height: 30px;
+    }
+  
+    .link-con-row-left,
+    .link-con-row-right,
+    .banner-con-row-left,
+    .banner-con-row-right {
+      display: line;
+      clear: both;
+    }
+  
+    a.banner-con {
+      font-size: 11px;
+    }
+  
+    .banner-con-row-left,
+    .banner-con-row-right,
+    .banner-con-address {
+      min-width: 220px;
+    }
+  
+    .pd-con-first-row,
+    .pd-con-second-row,
+    .pd-con-third-row,
+    .pd-con-four-row {
+      width: 100%;  
+      text-align: center; 
+      padding: 10px 10px;
+    }
+  
+    input[type=text],
+    input[type=number],
+    input[type=email],
+    input[type=password] {
+      font-size: 14px; 
+      width: 160px; 
+    }
+  
+    label.pd-con-label {
+      font-size: 14px;
+      width: 100px;                
+    }
+    .field {
+      min-width: 280px;
+    }
+  
+    .postback-first-row {
+      width: 100%;
+      text-align: left;
+      height: 60px;
+      line-height: 60px;
+      padding-left: 5px; 
+      padding-bottom: 10px;
+      font-size: 14px; 
+    }
+  
+    .postback-label {
+      display: block;
+      float: left;
+      width: 100%;
+      text-align: left;  
+      padding-bottom: 10px;
+    }
+  }
+  
+  @media (min-width: 1025px) {
+    .pd-con-first-row,
+    .pd-con-second-row,
+    .pd-con-third-row,
+    .pd-con-four-row {
+      width: 100%;  
+      text-align: center; 
+      padding: 30px 300px;
+    }
+  }

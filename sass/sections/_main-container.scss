@@ -1,0 +1,221 @@
+/* main - container*/
+
+.main-container {     
+    width: 100%;
+    min-height: 1000px;
+    background-color: $light-color;
+    margin: 0 18px;
+    text-align: center;  
+  }
+  
+  .main-nav {
+    background-color: $paragraph-color;
+    color: $light-color;
+    display: flex;  
+    width: 100%;
+    text-align: center;
+    justify-content: space-beetween;
+    display: none; 
+  }
+  
+  .main-brand {
+    display: flex;
+    width: 100%;
+    height: 60px;  
+  }
+  
+  .main-brand-logo {
+    color: $light-color;
+    font-style: italic; 
+    height: 60px;
+    float: left;  
+    position: relative;
+    display: flex;  
+    padding-left: 10px; 
+    width: 95%; 
+    text-align: left;
+    padding-top: 15px; 
+  }
+  
+  .main-hamburger {
+    color: $light-color;  
+    width: 10%;
+    height: 60px;    
+    text-align: center;  
+    padding-right: 10px; 
+    padding-top: 15px;   
+    &:hover {
+      cursor: pointer;
+      color: $orange-dark-color;  
+    }
+  }
+  
+  .main-show {
+    display: inline;  
+    background-color: $paragraph-color;  
+  }
+  
+  ol.main-menu.main-show {
+    width: 100%;
+    height: 100vh;
+    background-color: $paragraph-color;  
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  ol {
+    list-style-type: none;
+    display: none;
+    
+    margin: 0;
+    padding: 0;
+    a {
+      text-decoration: none;
+      width: 100%;
+      height: 40px;
+    }
+    li {
+      display: block;
+      padding: 10px;      
+    }
+    .main-row {  
+      padding: 8px 0 8px 20px;
+      width: 100%;    
+      display: block;
+      text-align: left;     
+      &:hover {
+        background-color: $grey-dark-color;
+        border-left: 5px solid $orange-dark-color;
+        padding: 8px 0 8px 15px;
+      }
+      .main-text {
+        color: $light-color;
+        padding-left: 15px;
+      }
+    }
+  }
+  
+  .brand-main-manager-headline {
+    color: $light-color;  
+    padding: 16px 0 8px 15px;
+    font-size: 16px;
+    border-top: 1px solid $light-color;
+    text-align: left;
+  }
+  
+  .main-bottom-nav-container {
+    width: 100%;
+    border: 1px solid $light-color; 
+  }
+  
+  .main-bottom-nav-container-first-row {
+    width: 100%;
+    height: 60px; 
+    border-bottom: 1px solid $light-color;
+  }
+  
+  .main-wallet-container:hover,
+  .main-notification-container:hover,
+  .main-personaldata-container:hover,
+  .main-quit-container:hover {
+    background-color: $grey-dark-color;
+  }
+  
+  .main-wallet-container {
+    width: 75%;
+    float: left;
+  }
+  
+  .main-wallet-first {
+    float: left;
+    width: 25%;  
+    height: 59px;
+  }
+  
+  .main-wallet-second {
+    float: left;
+    width: 50%;  
+    height: 59px;
+    padding-top: 15px;
+  }
+  
+  .main-wallet-third {
+    float: left;
+    width: 25%; 
+    height: 59px; 
+  }
+  
+  p.main-text-wallet {  
+    font-size: 16px;
+    color: $light-color;
+  }
+  
+  .main-notification-container {
+    width: 25%;
+    height: 60px;
+    float: left;
+    border-left: 1px solid $light-color;
+    position: relative;
+  }
+  
+  i.second.icon-circle {       
+    color: $orange-dark-color; 
+    line-height: 1.9;
+    font-size: 9px;
+    position: absolute;
+    top:28%;
+    left: 49%;  
+  }
+  
+  .main-bottom-nav-container-second-row {
+    width: 100%;
+    height: 60px; 
+  }
+  
+  .main-personaldata-container {
+    width: 75%;  
+    float: left;
+  }
+  
+  .main-personaldata {
+    float: left;
+    text-align: center;
+    height: 61px; 
+    width: 30%; 
+  }
+  
+  .main-person {
+    float: left;
+    display: table-cell;
+    vertical-align: middle;
+    padding-top: 15px;  
+    width: 70%;
+    text-align: left;
+    color: $light-color;
+  }
+  
+  .main-quit-container {  
+    width: 25%; 
+    float: left;
+    height: 61px; 
+    border-left: 1px solid $light-color;
+  }
+  
+  /* main - sections */
+  
+  .link-title {
+    height: 60px;
+    width: 100%;
+    text-align: left;
+    padding-left: 10px; 
+    border-bottom: 1px solid $grey-light-color;
+    line-height: 60px; 
+    color: $green-light-color;  
+  }
+  
+  .break-line {
+    width: 100%;
+    height: 78px;
+    background-color: $grey-fade-color;
+  }

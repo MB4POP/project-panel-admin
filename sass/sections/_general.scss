@@ -1,0 +1,210 @@
+/* section - general */
+
+.general-container {
+    min-height: 600px;
+    background-color: $light-color;
+    border: 1px solid $grey-light-color;
+    text-align: center;     
+  }
+  
+  .gen-con-first-row {
+    width: 100%;
+    min-height: 120px; 
+    border-bottom: 1px solid $grey-light-color;     
+  }
+  
+  .date-container {
+    width: 100%;
+    height: 120px;
+    padding: 0 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    float: left;     
+  }
+  
+  .date-container-row {
+    border: 1px solid $grey-light-color; 
+    border-radius: 4px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .date-box {
+    width: 42px;
+    height: 42px;
+    position: relative; 
+    float: left;
+  }
+  
+  input[type="date"] {
+    font-size: 14px;
+    border: none;
+    outline: none;
+    width: 160px;  
+    float: left;
+    line-height: 28px;
+    padding-left: 5px;  
+  }
+  
+  input.right-input {
+    border-left: 1px solid $grey-light-color; 
+  }
+  
+  .refresh-box {
+    width: 56px;
+    height: 42px;  
+    border: 1px solid $grey-light-color;   
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: $orange-dark-color;
+    border-radius: 4px;  
+    &:hover {
+      background-color: $orange-light-color;
+      cursor: pointer;
+    }
+  }
+  
+  .gen-con-second-row {
+    width: 100%;
+    min-height: 140px;
+    padding: 0 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; 
+    margin-top: 20px; 
+  }
+  
+  .data-chart-left,
+  .data-chart-right {
+    width: 50%;  
+    height: 100px;
+    float: left;
+    flex-wrap: wrap;
+    justify-content: space-between;  
+  }
+  
+  .data-chart-left {
+    padding: 0 20px 0 0;  
+  }
+  .data-chart-right {
+    padding: 0 0 0 20px;
+  }
+  
+  .data-chart-top,
+  .data-chart-bottom {
+    width: 100%;
+    border-bottom: 1px solid $grey-light-color; 
+    height: 50px;
+    line-height: 50px;
+    padding-top: 5px;
+    font-size: 14px;
+    &:hover {
+      background-color: $grey-fade-color;
+    }
+  }  
+  
+  .data-chart-text {
+    text-align: left;
+    display: block;
+    float: left; 
+    width: 80%;
+    color: $grey-dark-color; 
+    font-size: 14px; 
+  }
+  
+  .data-chart-span {
+    text-align: right;
+    display: block;
+    float: left; 
+    width: 20%;  
+    color: $grey-dark-color;
+  }
+  
+  .gen-con-third-row {
+    width: 100%;
+    min-height: 200px;
+    padding: 0 150px;
+  }
+  
+  .chart-title {
+    width: 100%; 
+    padding: 0 0 20px 0;
+    text-align: left;
+  }
+  
+  h3.chart-text {
+    width: 100%; 
+    font-size: 16px;
+    color: $grey-dark-color;
+    margin-bottom: 10px;  
+  }
+  
+  .chart-labels {
+    width: 100%;
+    height: 60px;
+    padding: 0;  
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    padding-bottom: 30px;
+  }
+  
+  .chart-label-text {
+    color: $tab-color;
+  }
+  
+  .chart-label-right,
+  .chart-label-middle,
+  .chart-label-left {
+    padding: 0 5px;
+    height: 40px;  
+    float: left;
+    margin-right: 20px;
+    border-radius: 5px;
+    position: relative;   
+    line-height: 40px; 
+    margin: 0 20px;
+  }
+  
+  .chart-label-right,
+  .chart-label-middle {
+    background-color: $grey-fade-color;
+    &:hover {
+      background-color: $grey-light-color;
+    }
+  }
+  
+  .chart-label-link-right {
+    color: $grey-dark-color; 
+    &:hover {
+      color: $paragraph-color;    
+    }
+  }
+  
+  .chart-label-link-middle {
+    color: $grey-dark-color;
+    &:hover {
+      color: $paragraph-color;    
+    } 
+  }
+  
+  .label-right.icon-circle {
+    color: $tab-color;
+  }
+  
+  .label-middle.icon-circle {
+    color: $orange-light-color;
+  }
+  
+  .label-left.icon-circle {
+    color: $green-dark-color;
+  }
+  
+  #myChart {
+    width: 100%;
+    padding: 0 0 30px 0;   
+    max-height: 400px; 
+  }

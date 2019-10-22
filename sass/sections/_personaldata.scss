@@ -1,0 +1,72 @@
+/* section - personaldata */
+
+.personaldata-container {
+    min-height: 800px;
+    background-color: $light-color;
+    border: 1px solid $grey-light-color;
+    text-align: center; 
+   }
+  
+  .pd-con-first-row,
+  .pd-con-second-row,
+  .pd-con-third-row,
+  .pd-con-four-row {
+    width: 100%;  
+    text-align: center; 
+    padding: 20px 200px;
+  }
+  
+  .field {
+    min-width: 310px;
+    margin: 20px 0;
+    text-align: left; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  input[type=text],
+  input[type=number],
+  input[type=email],
+  input[type=password] {
+    width: 190px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid $grey-light-color;    
+    padding-left: 10px;    
+    &:hover {
+      border: 1px solid $grey-dark-color;
+      background-color: $grey-light-color;
+      color: $paragraph-color;  
+      cursor: pointer;  
+    } 
+  }
+  
+  label.pd-con-label {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    width: 110px;           
+  }
+
+  .btn.save-pd {
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    background-color: $orange-dark-color;
+    border-radius: 3px;
+    color: $light-color;
+    border: none;
+    &:hover {
+      background-color: $orange-light-color;
+      color: $paragraph-color;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+  }
+
+  .pd-con-fifth-row {
+    min-height: 120px;
+    padding: 30px auto;
+    line-height: 120px;
+  }

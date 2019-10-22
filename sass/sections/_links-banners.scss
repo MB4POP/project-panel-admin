@@ -1,0 +1,124 @@
+/* section - links */
+/* section - banners */
+
+.links-container,
+.banners-container {
+  min-height: 600px;
+  background-color: $light-color;
+  border: 1px solid $grey-light-color;
+  text-align: center; 
+} 
+  
+.link-con-first-row,
+.link-con-third-row,
+.banner-con-first-row,
+.banner-con-third-row {
+  min-height: 120px;
+  padding: 30px auto;
+  line-height: 120px;
+}
+
+.btn.add-link,
+.btn.add-banner {
+  width: 100px;
+  height: 50px;
+  line-height: 50px;
+  background-color: $orange-dark-color;
+  border-radius: 3px;
+  color: $light-color;
+  border: none;
+  &:hover {
+    background-color: $orange-light-color;
+    color: $paragraph-color;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+}
+
+.link-con-second-row,
+.banner-con-second-row {
+  min-height: 300px;
+  padding: 0 150px;  
+}
+
+.link-con-row,
+.banner-con-row  {
+  height: 50px;
+  line-height: 50px; 
+  display: flex; 
+  border-top: 1px solid $grey-light-color;   
+  &:hover {
+    background-color: $grey-fade-color;
+  }
+  &:last-child {
+    border-bottom: 1px solid $grey-light-color;  
+  }
+}
+
+.link-con-row-left,
+.link-con-row-right,
+.banner-con-row-left,
+.banner-con-row-right {  
+  text-align: left;
+  float: left;
+}
+
+.link-con-row-left {
+  width: 50%;  
+  padding-left: 10px;
+  color: $grey-dark-color;
+}
+
+.banner-con-row-left {
+  width: 30%;  
+  padding-left: 10px;
+  color: $grey-dark-color;
+}
+
+.link-svg,
+.trash-svg,
+.link-con-address,
+.banner-con-address {
+  float: left;
+}
+
+.link-con-address {
+  min-width: 200px;
+}
+
+.banner-con-address {
+  min-width: 300px;
+}
+
+a.link-svg,
+a.trash-svg {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.link-svg {
+  padding-left: 60px;
+  display: none;
+}
+
+.trash-svg {
+  padding-left: 30px;
+  display: none;
+}
+
+.link-con-row:hover .link-svg,
+.link-con-row:hover .trash-svg,
+.banner-con-row:hover .link-svg,
+.banner-con-row:hover .trash-svg {
+  display: block;
+}
+
+a.link-con,
+a.banner-con {
+  text-decoration: none;
+  color: $paragraph-color;
+  &:hover {
+    color: $tab-color;
+  }
+}

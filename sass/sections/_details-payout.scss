@@ -1,0 +1,144 @@
+/* section - details */
+/* section - payout */
+
+.details-container,
+.payout-container {
+  min-height: 800px;
+  background-color: $light-color;
+  border: 1px solid $grey-light-color;
+  text-align: center;  
+}
+
+.det-con-second-row,
+.payout-con-second-row {
+  margin: 50px auto;
+}
+
+.scroll-wrapper {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+.scroll-wrapper table {
+  width: 100%;
+  max-width: 100%;
+}
+
+table { 
+  border-spacing: 0;
+  padding: 0 10px 0 20px;
+  }
+
+.table-head-row {
+ height: 60px;
+}
+
+.table-head-th-container {
+  width: auto;
+  height: 100%;
+  line-height: 30px;
+}
+
+.table-head-arrow-up {
+  width: 30px;
+  height: 30px;
+}
+
+.table-head-th-name {
+  float: left;
+}
+
+.table-head-th-arrow-up {
+  float: left;
+  width: 20px;
+  height: 30px; 
+  display: none; 
+}
+
+.table-head-th {
+  font-size: 12px;
+  color: $grey-dark-color;
+  line-height: 30px;  
+  margin: 20px;  
+  padding: 0 3px; 
+  text-align: left; 
+  &:hover {
+    background-color: $grey-fade-color;    
+    border-radius: 4px;
+    cursor: pointer;
+    padding-right: -30px;   
+  }
+}
+
+.table-head-th:hover .table-head-th-arrow-up {
+  display: block;
+}
+
+.table-body-th-first-row {
+  font-size: 12px;
+  font-weight: 300;
+  padding: 0 3px; 
+  line-height: 50px;
+  text-align: left;
+  border-top: 1px solid $grey-light-color;
+  border-bottom: 1px solid $grey-light-color;    
+}
+
+.table-body-th {
+  font-size: 12px;
+  font-weight: 300;
+  padding: 0 3px; 
+  line-height: 50px;
+  text-align: left;
+  border-bottom: 1px solid $grey-light-color;  
+}
+
+.table-body-row {  
+  border-bottom: 1px solid $grey-light-color;
+  &:hover {
+    background-color: $grey-fade-color;
+    cursor: pointer;
+  }
+}
+
+.table-change-line {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+}
+
+a.table-change-line-number,
+a.table-change-line-number-one {
+  text-decoration: none;
+}
+
+a.table-change-line-number:hover,
+a.table-change-line-number-arrow-left:hover,
+a.table-change-line-number-arrow-right:hover {
+  color: $orange-dark-color;
+  cursor: pointer;
+}
+
+.table-change-line-number-box {
+  width: 40px;
+  height: 40px; 
+  line-height: 40px;
+}
+
+.table-change-line-number-box-one {
+  width: 40px;
+  height: 40px;
+  background-color: $grey-light-color;
+  border-radius: 5px;
+  line-height: 40px;
+  color: $grey-dark-color;
+}
+
+.table-change-line-number-arrow-left,
+.table-change-line-number-arrow-right {  
+  width: 40px;
+  height: 40px;
+}

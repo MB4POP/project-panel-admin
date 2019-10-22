@@ -2,6 +2,14 @@
 @import "mixins";
 @import "normalize";
 @import "layout";
+@import "sections/details-payout";
+@import "sections/general";
+@import "sections/links-banners";
+@import "sections/main-container";
+@import "sections/personaldata";
+@import "sections/postback";
+@import "sections/rwd";
+
 
 /* Components */
 //@import "components/form_field";

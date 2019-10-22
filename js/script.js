@@ -58,3 +58,36 @@ function toggleMenu(visible) {
   });
 
   
+const sectionClickHandler = function (event) {
+
+  event.preventDefault;
+  const clickedElement = this;
+    
+  const activeLinks = document.querySelectorAll('menu a.active');
+  for(let activeLink of activeLinks) {
+    activeLink.classList.remove('active')
+  }
+
+  clickedElement.classList.add('active');
+
+  const activeSections = document.querySelectorAll('.break-line.active');
+
+  for(let activeSection of activeSections) {
+    activeSection.classList.remove('active')
+  }
+
+  const sectionSelector = clickedElement.getAttribute('href');
+
+  const targetSection = document.querySelector(sectionSelector);
+
+  targetSection.classList.add('active')
+}
+
+const links = document.querySelectorAll('.menu a');
+
+for(let link of links){
+  link.addEventListener('click', sectionClickHandler);
+}
+ 
+
+  
